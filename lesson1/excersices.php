@@ -39,11 +39,3 @@ nuėmę komentarą (//) nuo eilutės nr. 54 . Paleidus kodą, atkomentuotos eilu
 
 
 // echo 'You should not be seeing this line printed';
-
-/*
-5. Pašalinkite/užkomentuokite praeitos užduoties eilutes, kad jos netrukdytų toliau tęsti darbo.
-Išveskite į terminalą kintamojo $variableToDebug:
-- tik reikšmę
-- reikšmę kartu su duomens tipu
-*/
-$variableToDebug = 15;
