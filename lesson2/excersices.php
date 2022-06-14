@@ -45,3 +45,28 @@ $variable7 = 145;
 $variable8 = '145';
 $variable9 = '150';
 $variable10 = 150;
+
+/*
+5. Atlikite siuos skaiciavimus, panaudodami kintamuosius
+- 143 * 444
+- 567 / 12
+- 578 % 55
+- 6 ** 5
+- 5--;
+- 6++;
+*/
+
+/*
+6. Parasykite koda, kad jis patikrintu ar:
+- 56 > 77
+- 190 <= 230
+- 230 yra lygu '230'
+- 45 nera lygu '45
+*/
+
+/*
+7. Parasykite koda, kad jis ar reiksme egzistuoja
+- pasirasykite kintamaji $variable = 10; patikrinkite ar jis egzistuoja;
+- jeigu egzistuoja patikrinkite koks jo tipas
+- istrinkite jo apsirasyma ir patikrinkite ar egzistuojate. kokia reiksme gaunate? ar gaunate error?
+*/
