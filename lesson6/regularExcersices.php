@@ -121,7 +121,7 @@ function exercise8(): array
 {
     /*
     Sunaikinkitę visas reikšmes, kurios dalijasi 2 ir grąžinkite masyvą
-    Turėtumėte gauti masyvą: ['one' => 1, 'three' => 3, 'four' => 4, 'five' => 5]
+    Turėtumėte gauti masyvą: ['one' => 1, 'three' => 3, 'five' => 5]
     */
 
     $numbers = ['ninety' => 90, 'one' => 1, 'two' => 2, 'three' => 3, 'four' => 4, 'five' => 5];
