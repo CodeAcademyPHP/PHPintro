@@ -46,7 +46,7 @@ function exercise4(int $number): int
 {
     /*
     Prie kiekvieno masyvo nario pridėkite skaičių $number ir grąžinkite visų masyvo narių sumą.
-    Funkcijos kvietimas: exercise5(9)
+    Funkcijos kvietimas: exercise4(9)
     Funkcija grąžina: 715
 
     */
@@ -60,14 +60,14 @@ function exercise5(int $number): void
     /*
     Išspausdinkite skaičius, kurie prasideda nuo $number ir mažėja arba didėja iki 0, per du skaitmenis.
 
-    Funkcijos kvietimas: exercise6(5)
+    Funkcijos kvietimas: exercise5(5)
     Funkcija spausdina:
     5
     3
     1
     0
 
-    Funkcijos kvietimas: exercise6(-5)
+    Funkcijos kvietimas: exercise5(-5)
     Funkcija spausdina:
     -5
     -3
@@ -83,7 +83,7 @@ function exercise6(array $numbers): array
     Apskaičiuokite skaičių masyvo statistiką.
     Jeigu tarp paduotų skaičių yra neigiamų skaičių arba 0, juos ignoruokite.
 
-    Funkcijos kvietimas: exercise7([1, 3, 40])
+    Funkcijos kvietimas: exercise6([1, 3, 40])
     Funkcija grąžina:
     [
         'suma' => 44,
@@ -104,7 +104,7 @@ function exercise7($height, $width)
     Parašykite funkciją, kuri išspausdintų nurodytų matmenų bloką.
     Taip pat, pataisykite funkcijos parametrus ir return tipą.
 
-    Funkcijos kvietimas: exercise8(3, 4)
+    Funkcijos kvietimas: exercise7(3, 4)
     Funkcija grąžina: funkcija nieko negrąžina, ji tik spausdina:
     [][][][]
     [][][][]
@@ -122,7 +122,7 @@ function exercise8(array $items, int $partsCount = 2): array
     antrojo parametro $partsCount (2 pavyzdys) ir tokiu atveju masyvas būtų dalinamas į dvi dalis.
 
     Funkcijos kvietimas:
-    exercise9(
+    exercise8(
         [1, 2, 3, 4, 5, 6, 7],
         4
     )
@@ -134,7 +134,7 @@ function exercise8(array $items, int $partsCount = 2): array
         [7]
     ]
 
-    Funkcijos kvietimas: exercise9([1, 2, 3, 4, 5, 6, 7])
+    Funkcijos kvietimas: exercise8([1, 2, 3, 4, 5, 6, 7])
     Funkcija grąžina:
     [
         [1, 2, 3, 4],
