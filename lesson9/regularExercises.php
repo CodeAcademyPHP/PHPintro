@@ -109,7 +109,7 @@ function exercise8($date): void
 
     Funkcijos kvietimas: exercise8(date_create('2020-01-25 17:13:25'));
     Rezultatas:
-    Supplied date was 773 days ago
+    Supplied date was 891 days ago
 
     Funkcijos kvietimas: exercise8(date_create('2023-01-25 17:13:25'));
     Rezultatas:
