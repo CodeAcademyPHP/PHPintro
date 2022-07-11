@@ -8,12 +8,6 @@ function exercise1(): void
     Įrašykite skaičius nuo 0 iki 10 į failą pavadinimu numbers.txt.
     Kiekvienas skaičius turi būti įrašytas naujoje eilutėje.
     */
-
-    $file = 'lesson10/numbers.txt';
-    for($i=0;$i<11;$i++) {
-        var_dump($i);
-        file_put_contents($file, $i.PHP_EOL, FILE_APPEND);
-    }
 }
 
 //exercise1();
@@ -57,11 +51,6 @@ function exercise2(): void
             'weight' => 1450
         ],
     ];
-
-    $file = 'lesson10/vehicles.txt';
-    foreach ($vehicles as $vehicle) {
-        file_put_contents($file, $vehicle['name'].PHP_EOL, FILE_APPEND);
-    }
 }
 
 //exercise2();
@@ -77,10 +66,6 @@ function exercise3(): array
         ...
     ]
     */
-    $file = 'lesson10/vehicles.txt';
-    $readFile = file_get_contents($file);
-
-    return explode(PHP_EOL, $readFile);
 }
 //print_r(exercise3());
 
