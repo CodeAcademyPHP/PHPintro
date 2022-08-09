@@ -22,7 +22,7 @@
        ];
 
 3.     Išspausdinkite skaičius, kurie yra mažesni nei $number ir dalijasi iš 55. Jeigu paduotas skaičius mažesnis nei 0,
-       funkcija paverčia šį skaičių minusiniu.
+       funkcija paverčia šį skaičių pliusiniu.
        Funkcijos kvietimas: exercise10(60)
 
 
